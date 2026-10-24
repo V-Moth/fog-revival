@@ -3,11 +3,14 @@ Project aimed at resurrecting the Steam PC version of Forge Of Gods by Panoramik
 
 The game is currently unplayable and will not go past the initial loading screen due to missing config files, which I am trying to get the game to make on it's own. Contributions to the project are more than welcome.
 
+
+
 Requirements:
 - Python 3.13
 - Forge Of Gods PC Steam (latest version)
 
 Installation:
+- Download fog-revival.zip and extract everything as is into a folder.
 1. Install Python 3.13
 2. Download Forge Of Gods PC Steam version
 3. Extract the modified Assembly-CSharp.dll and replace when asked, to X:\SteamLibrary\steamapps\common\Forge of Gods (RPG)\fog_Data\Managed (X being your drive where the game is installed)
@@ -28,3 +31,7 @@ TODO
 - Restore all primary functions (Gameplay - single-player etc)
 - Restore "online" functions (DLC availability, login rewards etc)
 - Remove Steam client dependency
+
+Note: 
+- Your Steam ID can be found in Account Details (Click on your username, top right corner -> Account Details)
+- I cannot provide the game's files due to legal precautions.
